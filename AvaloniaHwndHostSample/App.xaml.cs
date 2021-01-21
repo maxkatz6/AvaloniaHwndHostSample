@@ -13,5 +13,10 @@
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            _ = AvaloniaApplication.Program.BuildAvaloniaApp()
+                .SetupWithoutStarting();
+        }
     }
 }

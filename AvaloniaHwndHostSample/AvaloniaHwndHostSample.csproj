@@ -6,4 +6,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AvaloniaApplication\AvaloniaApplication.csproj" />
+    <ProjectReference Include="..\AvaloniaHwndHost\AvaloniaHwndHost.csproj" />
+  </ItemGroup>
+
 </Project>
