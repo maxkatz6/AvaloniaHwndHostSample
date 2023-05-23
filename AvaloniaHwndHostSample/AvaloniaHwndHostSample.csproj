@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AvaloniaApplication\AvaloniaApplication.csproj" />
-    <ProjectReference Include="..\AvaloniaHwndHost\AvaloniaHwndHost.csproj" />
+    <ProjectReference Include="..\Avalonia.Win32.Interoperability\Avalonia.Win32.Interoperability.csproj" />
   </ItemGroup>
 
 </Project>

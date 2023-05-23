@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaHwndHostSample", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication", "AvaloniaApplication\AvaloniaApplication.csproj", "{AD0D2BCB-9855-4488-9932-2FAAFA17ED3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaHwndHost", "AvaloniaHwndHost\AvaloniaHwndHost.csproj", "{86D909E1-78F9-4172-8489-D22179C35D44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.Win32.Interoperability", "Avalonia.Win32.Interoperability\Avalonia.Win32.Interoperability.csproj", "{86D909E1-78F9-4172-8489-D22179C35D44}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{AB70DD8C-4729-4A07-8FB0-30CA1D500A87}"
 EndProject
