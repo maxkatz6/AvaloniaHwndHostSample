@@ -63,7 +63,7 @@ public class WpfAvaloniaHost : HwndHost
         _root = new EmbeddableControlRoot();
         _root.Content = _content;
         _root.Prepare();
-        _root.Renderer.Start();
+        _root.StartRendering();
 
         var handle = _root.TryGetPlatformHandle()?.Handle
                      ?? throw new InvalidOperationException("WpfAvaloniaHost is unable to create EmbeddableControlRoot.");
